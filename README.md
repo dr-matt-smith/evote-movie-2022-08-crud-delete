@@ -52,7 +52,7 @@ CRUD - adding a delete link on the Movie list page
         </td>
     ```
 
-- add a new case to the front cotnroller login in `/src/Application.php`. When the URL action is `delete`, a value for `id` should be extracted from the URL, and passed to `MainController` method `delete(...)`
+- add a new case to the front controller login in `/src/Application.php`. When the URL action is `delete`, a value for `id` should be extracted from the URL, and passed to `MainController` method `delete(...)`
 
   ```php
         class Application
